@@ -49,5 +49,5 @@ gcc security2.c -o bruteforce_tool
 
 To use the tools:
 ```bash
-./security2.c encoded out
-./security1.c -d encoded -o out -k key
+./security2.c encoded decoded
+./security1.c -d encoded -o decoded -k key
